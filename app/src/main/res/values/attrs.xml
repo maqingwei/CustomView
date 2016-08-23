@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Commonbar">
+        <!--中间title属性 内容 大小 字体颜色-->
+        <attr name="titles" format="string"/>
+        <attr name="titleSize" format="dimension"/>
+        <attr name="titleClolor" format="color"/>
+
+        <!--左边button属性 内容  背景 字体颜色-->
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftBackground" format="reference|color"/>
+
+        <!--右边button属性 内容  背景 字体颜色-->
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightBackground" format="reference|color"/>
+    </declare-styleable>
+
+</resources>
